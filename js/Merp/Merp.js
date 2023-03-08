@@ -1,4 +1,4 @@
-import { getBits, _extractOnes, _xnor, dot, _fill } from "./_helpers.js";
+import { getBits, _extractOnes, _xnor, dot, _fill } from "./helpers.js";
 
 export class Merp {
     constructor(dim) {
