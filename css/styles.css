@@ -1,0 +1,5 @@
+.m-control-panel {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+}
