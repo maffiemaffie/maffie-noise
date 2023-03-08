@@ -1,4 +1,4 @@
-import { getBits, _fill } from './Merp/_helpers.js'
+import { getBits, _fill } from './Merp/helpers.js'
 import { Merp } from './Merp/Merp.js';
 
 export class Noise {
