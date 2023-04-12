@@ -1,4 +1,4 @@
-import { OctaveNoise } from "./OctaveNoise.js";
+import { OctaveNoise } from "../../noise.js";
 
 export class NoiseDemo {
    maffieNoise;
