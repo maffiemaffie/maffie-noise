@@ -1,0 +1,30 @@
+{
+  "name": "maffie-noise",
+  "version": "1.0.0",
+  "description": "Simple value noise library.\r Let's you do cool noise stuff.",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maffiemaffie/maffie-noise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maffiemaffie/maffie-noise/issues"
+  },
+  "homepage": "https://github.com/maffiemaffie/maffie-noise#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

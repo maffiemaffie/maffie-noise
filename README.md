@@ -4,23 +4,17 @@ Simple value noise library.
 Let's you do cool noise stuff.
 
 ## Installation
-Just import [noise.js](noise.js) or [noise.min.js](noise.min.js) as an ES6 module :thumbsup:
+Just import [index.js](index.js) as an ES6 module :thumbsup:
 
-index.html
-```html
-<script type="module" src="main.js"></script>
-```
-
-main.js
 ```js
-import { Noise, OctaveNoise } from 'path-to/noise.min.js';
+import { Noise, OctaveNoise } from 'path/to/index.js';
 ```
 
 ## Getting Started
 The module has two noise objects: Noise and OctaveNoise. OctaveNoise just stacks multiple Noise's on top of each other. I would recommend using that one. 
 
 ```js
-import { OctaveNoise } from 'path-to/noise.min.js';
+import { OctaveNoise } from 'path/to/index.js';
 
 const noise = new OctaveNoise(
     3, // dimensions
@@ -33,7 +27,7 @@ Both objects have a method get() which returns the noise value at the specified 
 Below is a simple program implementing the Noise.get() method to generate a bumpy line.
 
 ```js
-import { OctaveNoise } from "../Noise.min.js";
+import { OctaveNoise } from "path/to/index.js";
 
 const noise = new OctaveNoise(
     1, // dimensions
