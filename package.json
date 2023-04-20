@@ -1,6 +1,6 @@
 {
   "name": "maffie-noise",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple value noise library.\r Let's you do cool noise stuff.",
   "main": "./dist/index.js",
   "files": [

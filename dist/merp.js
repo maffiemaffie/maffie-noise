@@ -1,4 +1,4 @@
-import { getBits, _xnor, dot } from "./utils";
+import { getBits, _xnor, dot } from "./utils.js";
 /** merp */
 class Merp {
     constructor(dim) {
