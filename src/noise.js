@@ -2,13 +2,15 @@ import { Merp } from "./merp.js";
 import { getBits, _fill } from "./utils.js";
 
 class Noise {
-    constructor(dim, depth) {
-        this.dim = dim; // n dimension in Rn space
-        this.pow = depth; // resolution power
-        this.res = 1 << depth; // tile size
+    private dim 
 
-        this.merp = new Merp(dim); // interpolator
-        this.gradientMerp = new Merp(dim - 1)
+    constructor(dimension, resolution) {
+        this.dim = dimension; // n dimension in Rn space
+        this.pow = resolution; // resolution power
+        this.res = 1 << resolution; // tile size
+
+        this.merp = new Merp(dimension); // interpolator
+        this.gradientMerp = new Merp(dimension - 1)
         this.values = this._init(); // randomize lattice points
     }
 
