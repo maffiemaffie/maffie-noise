@@ -59,4 +59,4 @@ That's about it have fun thank you :3
 
 
 ## License
-[MIT License](LICENSE). &copy; Maffie Cohen.
+[MIT License](LICENSE).
